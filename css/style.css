@@ -355,6 +355,13 @@ footer p{
 footer p:hover{
     color: var(--primary);
 }
+.hamberger{
+   display: none;
+}
+.mobile-view-links .all-links{
+display: none;
+}
+
 
 @media (max-width:1200px){
     header #goto a, header #right-btn{
@@ -373,6 +380,7 @@ footer p:hover{
         right: 40px;
         font-size: 2rem;
         z-index: 2;
+        display: block;
     }
     #hamberger-open{
         color: rgb(255, 255, 255);
@@ -400,6 +408,7 @@ footer p:hover{
         padding: 2rem;
         display: flex;
         flex-direction: column;
+        display: none;
     }
     .mobile-view-links .all-links a{
         color: black;
